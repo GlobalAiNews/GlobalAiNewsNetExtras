@@ -1,5 +1,8 @@
-#This is the intended layout for a configuration that allows you to share models between different front end generative ai applications.
+# Directory Structure
 
+This README file illustrates the desired layout of files and directories for our project.
+
+```
 Top-level-dir/
 │
 ├── common/
@@ -24,3 +27,15 @@ Top-level-dir/
 ├── comfyui/
 ├── stable-diffusion/
 └── sdforge/
+```
+
+## Directory Descriptions
+
+- `Top-level-dir/`: The root directory of the project.
+  - `common/`: Contains shared resources and models.
+    - `models/`: Houses various AI and machine learning models.
+  - `comfyui/`: Directory for ComfyUI related files.
+  - `stable-diffusion/`: Contains Stable Diffusion related files.
+  - `sdforge/`: Directory for SDForge related files.
+
+Note: This structure is subject to change and may be updated as the project evolves.
