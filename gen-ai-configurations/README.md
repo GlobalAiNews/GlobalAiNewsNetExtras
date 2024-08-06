@@ -1,11 +1,12 @@
 # Directory Structure
 
-This README file illustrates the desired layout of files and directories for our project.
+This README file illustrates how you can arrange different frontend UI's like ComfyUI or Stable diffusion so that they can share models. Now, you may not have all of these different directories depending on what you are using. But this allows you to keep the models in a central location and save some space
 
 ```
 Top-level-dir/
 │
 ├── common/
+│   └── embeddings/
 │   └── models/
 │       ├── 3dphoto/
 │       ├── adetailer/
@@ -34,6 +35,7 @@ Top-level-dir/
 - `Top-level-dir/`: The root directory of the project.
   - `common/`: Contains shared resources and models.
     - `models/`: Houses various AI and machine learning models.
+    - `embeddings/`: Textual Embeddings.
   - `comfyui/`: Directory for ComfyUI related files.
   - `stable-diffusion/`: Contains Stable Diffusion related files.
   - `sdforge/`: Directory for SDForge related files.
